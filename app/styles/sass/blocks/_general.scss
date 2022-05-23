@@ -1,0 +1,65 @@
+// GENERAL PROJECT STYLES
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1vw;
+}
+
+body {
+  color: #000000;
+  font-family: 'freight-sans-pro', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1132px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.container__full {
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.button {
+  background: #FFFFFF;
+  border-radius: 38px;
+  transition: all .3s ease-in-out;
+  min-width: 211px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+
+  span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 144.5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #F1BD98;
+    transition: all .3s ease-in-out;
+  }
+
+  &:hover {
+    background: #EB9B62;
+
+    span {
+      color: #fff;
+    }
+  }
+}
+
+body {
+  min-height: 100vh;
+}
